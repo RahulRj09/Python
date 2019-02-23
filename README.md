@@ -1,2 +1,3 @@
 # Python
-All the Python Projects made by me
+All the Projects that I have implemented using Python.
+
