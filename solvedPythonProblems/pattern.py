@@ -1,6 +1,7 @@
-a = int(input("Enter the length of the grid:\n"))
-for i in range(1,(a+1)):
-    if (i == 1) or (i == a):
-        print(a*"*")
-    else:
-        print("*"+(a-2)*" "+"*")
+m = ""
+for i in range(1,6):
+	for x in range(1,i+1):
+		m = m + str(x)
+	print(m)
+	m = ""
+		 
